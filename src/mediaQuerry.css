@@ -1,0 +1,98 @@
+/* Media querrying the website */
+@media only screen and (max-width: 900px){
+    .containerTop {
+        width: 100vw;
+        height: 15vh;
+        padding-right: 2vw;
+    }
+    .containerTop .left {
+        width:  50vw;
+    }
+    .containerTop .right {
+        display: none;
+        background-color: #0B112B;
+        width: 100vw;
+        height: 50vh;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 15vh;
+        left: 0;
+        padding: 2vh 0;
+        transform: translateY(-100%);
+        opacity: 0;/* Hidden */
+        transition: transform 0.5s ease, opacity 0.5s ease; /* Smooth transition*/
+        z-index: 1000;
+    }
+    .containerTop .showSidebarButtons {
+        display: block;
+    }
+    .containerTop .showSidebarButtons button {
+        border: none;
+        background-color: #0B112B;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+    .containerTop .showSidebarButtons button i{
+        font-size: 1.5rem;
+        color: white;
+    }
+    .containerTop .showSidebarButtons button .toggle-icon {
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .containerTop .showSidebarButtons button .fa-times {
+        transform: rotate(180deg);
+    }
+    .containerTop .right.show {
+        display: flex;
+        transform: translateY(0); /* Slide into view*/
+        opacity: 1; /* Fully visible*/
+    }
+    .containerTop .right.show .navBars {
+        width: 100vw;
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .containerTop .right.show .socialMediaLinks {
+        width: 70vw;
+    }
+    .homeContainer .mainContent .landingDiv div {
+        width: 80vw;
+    }
+    .homeContainer .mainContent .ourStrength .header p {
+        text-align: center;
+    }
+    .homeContainer .mainContent .ourStrength .body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3vh;
+    }
+    .homeContainer .mainContent .ourStrength .body .strength {
+        width: 80vw;
+    }
+    .homeContainer .mainContent .ourStrength .body .strength #top {
+        width: 70vw;
+    }
+    .homeContainer .mainContent .ourStrength .body .strength #top #underline {
+        width: 10vw;
+        height: 1vh;
+    }
+    .homeContainer .mainContent .whoWeAre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .homeContainer .mainContent .whoWeAre .left {
+        width: 90vw;
+    }
+    .homeContainer .mainContent .whoWeAre .left img {
+        height: 40vh;
+    }
+    .homeContainer .mainContent .whoWeAre .right {
+        width: 90vw;
+        height: max-content;
+    }
+}

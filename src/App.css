@@ -1,38 +1,228 @@
-.App {
-  text-align: center;
+/* Styling the Home Page */
+.homeContainer {
+  width: 100vw;
+  height: 100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Styling the containerTop div in the PageHeader.js file */
+.containerTop {
+  width: 100vw;
+  height: 15vh;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 1vw;
+  /* background-color: #111111; */
+  background-color: #0B112B;
+}
+.containerTop .left {
+  width:20vw;
+  height: 12vh;
+}
+.containerTop .left img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+.containerTop .right {
+  width: 65vw;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+}
+.containerTop .right .navBars{
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerTop .right .navBars a {
+  font-size: 1.1rem;
+  color: white;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.containerTop .right .socialMediaLinks {
+  width: 20vw;
+  display: flex;
+  justify-content: space-between;
+}
+.containerTop .right .socialMediaLinks a {
+  width: 40px;
+  height: 40px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  border-radius: 50%;
+  background-color: #F04A00;
+  /* background-color: #007FFF; */
+}
+.containerTop .right .socialMediaLinks a i {
+  font-size: 1.3rem;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.containerTop .showSidebarButtons {
+  display: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.homeContainer .mainContent {
+  width: 100vw;
+  height: 85vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: #111111;
+  padding-bottom: 5vh;
+}
+/* Styling the landing div */
+.homeContainer .mainContent .landingDiv {
+  width: 100vw;
+  height: 80vh;
+  background-image: url('/public/Landing\ Image.jpg');
+  background-size: cover;
+  background-position: center;
+  /* filter: blur(10px); */
+  z-index: -1;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homeContainer .mainContent .landingDiv div {
+  width: 60vw;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.homeContainer .mainContent .landingDiv div h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px #F04A00;
+}
+.homeContainer .mainContent .landingDiv div p {
+  font-size: 1.5rem;
+}
+.homeContainer .mainContent .landingDiv div button {
+  width: max-content;
+  height: max-content;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #F04A00;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.homeContainer .mainContent .ourStrength {
+  width: 100vw;
+  height: max-content;
+  padding-bottom: 5vh;
+}
+.homeContainer .mainContent .ourStrength .header {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.homeContainer .mainContent .ourStrength .header h1{
+  font-size: 2rem;
+}
+.homeContainer .mainContent .ourStrength .header p {
+  color: #BEBFC5;
+}
+.homeContainer .mainContent .ourStrength .body {
+  display: flex;
+  justify-content: space-between;
+  padding: 2vw 2vw;
+}
+.homeContainer .mainContent .ourStrength .body .strength {
+  width: 30vw;
+  height: max-content;
+  background-color: #1B1B1B;
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.homeContainer .mainContent .ourStrength .body .strength #top {
+  width: 27vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.homeContainer .mainContent .ourStrength .body .strength #top #icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111111;
+}
+.homeContainer .mainContent .ourStrength .body .strength #top #icon i {
+  font-size: 1.5rem;
+  color: #F04A00;
+}
+.homeContainer .mainContent .ourStrength .body .strength #top #underline {
+  width: 3vw;
+  height: 0.5vh;
+  border-radius: 2px;
+  background-color: #F04A00;
+}
+.homeContainer .mainContent .ourStrength .body .strength #body {
+  padding-top: 5vh;
+  color: #BEBFC5;
+}
+.homeContainer .mainContent .ourStrength .body .strength #body p {
+  text-align: center;
+}
+.homeContainer .mainContent .whoWeAre {
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.homeContainer .mainContent .whoWeAre .left {
+  width: 40vw;
+  height: max-content;
+  /* background-color: yellow; */
+}
+.homeContainer .mainContent .whoWeAre .left img {
+  width: inherit;
+  height: 70vh;
+  object-fit: cover;
+}
+.homeContainer .mainContent .whoWeAre .right {
+  width: 40vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homeContainer .mainContent .whoWeAre .right p {
+  text-align: center;
+  color: #BEBFC5;
+}
+.homeContainer .mainContent .whoWeAre .right button {
+  width: max-content;
+  height: max-content;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #F04A00;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
