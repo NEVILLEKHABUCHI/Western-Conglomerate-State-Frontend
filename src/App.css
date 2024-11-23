@@ -63,11 +63,21 @@
 .containerTop .showSidebarButtons {
   display: none;
 }
-
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    scale: 1;
+  }
+}
 .homeContainer .mainContent {
   width: 100vw;
   height: 85vh;
-  overflow-y: scroll;
+  overflow-y: auto;
   overflow-x: hidden;
   background-color: #111111;
   padding-bottom: 5vh;
@@ -100,6 +110,8 @@
 .homeContainer .mainContent .landingDiv div h1 {
   font-size: 3rem;
   text-shadow: 2px 2px 4px #F04A00;
+  /* animation: appear 1s ease-out forwards; */
+  animation-delay: 0.5s;
 }
 .homeContainer .mainContent .landingDiv div p {
   font-size: 1.5rem;
@@ -114,6 +126,7 @@
   color: white;
   font-size: 1rem;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  animation: appear 1s ease-out forwards;
 }
 .homeContainer .mainContent .ourStrength {
   width: 100vw;
@@ -210,6 +223,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.homeContainer .mainContent .whoWeAre .right h1{
+  animation: appear 1s ease-out forwards;
 }
 .homeContainer .mainContent .whoWeAre .right p {
   text-align: center;
