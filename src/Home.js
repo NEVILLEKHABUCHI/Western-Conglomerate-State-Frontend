@@ -65,6 +65,7 @@ function Home(){
                         </div>
                     </div>
                 </div>
+
                 <div className='whoWeAre'>
                     <div className='left'>
                         <img src='Architecture.jpg' alt='Western Conglomerate State'/>
@@ -87,6 +88,50 @@ function Home(){
                         <button>More About Us</button>
                     </div>
                 </div>
+
+                <div className='ratings'>
+                    <div className='rating'>
+                        <div className='top'>
+                            <h1>700 <span><i class="fa-solid fa-plus"></i></span></h1>
+                            <p id='underline'></p>
+                        </div>
+                        <div className='body'>
+                            <p>hours of practice in creating award-winning digital solutions.</p>
+                        </div>
+                    </div>
+                    <div className='rating'>
+                        <div className='top'>
+                            <h1>3.000 <span><i class="fa-solid fa-plus"></i></span></h1>
+                            <p id='underline'></p>
+                        </div>
+                        <div className='body'>
+                            <p>high-level projects successfully performed and delivered.</p>
+                        </div>
+                    </div>
+                    <div className='rating'>
+                        <div className='top'>
+                            <h1>1.5k <span><i class="fa-solid fa-plus"></i></span></h1>
+                            <p id='underline'></p>
+                        </div>
+                        <div className='body'>
+                            <p>projects designed by our trained experts.</p>
+                        </div>
+                    </div>
+                    <div className='rating'>
+                        <div className='top'>
+                            <h1>20 <span><i class="fa-solid fa-plus"></i></span></h1>
+                            <p id='underline'></p>
+                        </div>
+                        <div className='body'>
+                            <p>highly trained people in design, development and marketing.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <footer>
+                    <p>© 2024 Western Conglomerate State. All Rights Reserved.</p>
+                    <p>Website Powered by <a href="https://nevoline-company.vercel.app/" target="_blank">NEVOLINE</a></p>
+                </footer>
             </div>
         </div>
     )
