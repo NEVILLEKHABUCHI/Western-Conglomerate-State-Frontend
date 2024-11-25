@@ -70,6 +70,7 @@
     }
     .homeContainer .mainContent {
         height: 90vh;
+        padding-bottom: 5vh;
     }
     .homeContainer .mainContent .landingDiv div {
         width: 80vw;
