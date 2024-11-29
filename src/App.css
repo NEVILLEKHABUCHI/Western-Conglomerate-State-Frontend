@@ -291,3 +291,119 @@
 .homeContainer .mainContent footer a {
   color: #F04A00;
 }
+
+/* Styling the about container */
+.aboutContainer .mainContent {
+  width: 100vw;
+  height: 85vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #111111;
+  padding-bottom: 5vh;
+}
+.aboutContainer .mainContent .landingDiv {
+  width: 100vw;
+  height: 60vh;
+  background-image: url('/public/about_image.png');
+  background-size: cover;
+  background-position: center;
+  /* filter: blur(10px); */
+  z-index: -1;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutContainer .mainContent .landingDiv p {
+  color: #BEBFC5;
+  font-size: 1rem;
+}
+.aboutContainer .mainContent .landingDiv p span {
+  color: #F04A00;
+  text-decoration: underline;
+}
+.aboutContainer .mainContent .whatWeDo {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5vw;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+}
+.aboutContainer .mainContent .whatWeDo .left {
+  width: 45vw;
+  height: inherit;
+  text-align: center;
+  padding: 2vw;
+}
+.aboutContainer .mainContent .whatWeDo .left p {
+  color: #BEBFC5;
+}
+.aboutContainer .mainContent .whatWeDo .right {
+  width: 40vw;
+  height: inherit;
+}
+.aboutContainer .mainContent .whatWeDo .right img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+.aboutContainer .mainContent .ourValues {
+  width: 100vw;
+  height: max-content;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutContainer .mainContent .ourValues h1 {
+  text-align: center;
+  padding: 5px;
+}
+.aboutContainer .mainContent .ourValues .allValues {
+  width: max-content;
+  height: inherit;
+  display: grid;
+  grid-template-columns: repeat(4, 22vw);
+  gap: 2vw;
+}
+.aboutContainer .mainContent .ourValues .value {
+  width: 22vw;
+  height: max-content;
+  background-color: #1B1B1B;
+  border-radius: 10px;
+  padding: 20px;
+}
+.aboutContainer .mainContent .ourValues .value .top {
+  width: 19vw;
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.aboutContainer .mainContent .ourValues .value .top #icon{
+  font-size: 3rem;
+  color: #F04A00;
+}
+.aboutContainer .mainContent .ourValues .value .top div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aboutContainer .mainContent .ourValues .value .top div {
+  font-size: 1.3rem;
+}
+.aboutContainer .mainContent .ourValues .value .body {
+  overflow: hidden;
+  transition: max-height 0,3s ease;
+  padding-top: 5vh;
+  color: #BEBFC5;
+}
+.aboutContainer .mainContent .ourValues .value .body p {
+  text-align: center;
+}

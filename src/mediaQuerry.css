@@ -126,4 +126,38 @@
     .homeContainer .mainContent footer {
         text-align: center;
     }
+
+    /* Media querrying the about page */
+    .aboutContainer .mainContent .landingDiv {
+        width: 100vw;
+        height: 50vh;
+    }
+    .aboutContainer .mainContent {
+        height: 90vh;
+        padding-bottom: 10vh;
+    }
+    .aboutContainer .mainContent .whatWeDo {
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+    .aboutContainer .mainContent .whatWeDo .left {
+        width: 90vw;
+        height: max-content;
+    }
+    .aboutContainer .mainContent .whatWeDo .right {
+        
+        width: 90vw;
+    }
+    .aboutContainer .mainContent .ourValues .allValues {
+        display: grid;
+        grid-template-columns: repeat(1,80vw);
+    }
+    .aboutContainer .mainContent .ourValues .value {
+        width: 80vw;
+    }
+    .aboutContainer .mainContent .ourValues .value .top {
+        width: 70vw;
+    }
 }
