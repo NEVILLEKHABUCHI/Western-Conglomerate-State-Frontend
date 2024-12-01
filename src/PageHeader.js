@@ -20,10 +20,9 @@ function PageHeader({showHeaderButtons, setShowHeaderButtons}){
                 <Link to='/contacts'>Contacts</Link>
             </div>
             <div className='socialMediaLinks'>
-                <a href ='#' target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-x-twitter"></i></a>
-                <a href ='#' target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-facebook"></i></a>
-                <a href ='#' target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-instagram"></i></a>
-                <a href ='#' target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-youtube"></i></a>
+                <a href ='https://x.com/keithanjila21?t=mcKmlf9gFqPIYNuWYeu3GQ&s=09' target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-x-twitter"></i></a>
+                <a href ='https://www.facebook.com/keith.anjila.18' target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-facebook"></i></a>
+                <a href ='https://www.instagram.com/the_western_conglomerate_state?igsh=YzljYTk1ODg3Zg==' target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-instagram"></i></a>
                 <a href ='#' target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-tiktok"></i></a>
             </div>
            </div>

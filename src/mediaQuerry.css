@@ -160,4 +160,13 @@
     .aboutContainer .mainContent .ourValues .value .top {
         width: 70vw;
     }
+    .aboutContainer .mainContent .ourMission {
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        padding-right: 0;
+    }
+    .aboutContainer .mainContent .ourMission div {
+        width: 90vw;
+    }
 }

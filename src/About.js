@@ -121,6 +121,27 @@ function About(){
                         ))}
                     </div>
                 </div>
+
+                <div className="ourMission">
+                    <div>
+                        <p id="icon"><i class="fa-solid fa-bullseye"></i></p>
+                        <br/>
+                        <h1>Our Mission</h1>
+                        <br/>
+
+                        <p id="content">
+                            Our mission is to bridge the gap between clients and the engineering expertise they need to succed. We 
+                            strive to simplify the process of finding qualified engineers across all disciplines, ensuring every project-bug or small-receives the right talent for 
+                            the job. 
+                        </p>
+                        <br/>
+                        <p id="content">
+                            We are committed to delivering exceptional value through transparency , trust and innovation. 
+                            By fostering strong connections and empowering both clients and engineers, we aim to drive progress, 
+                            complex challenges and build a future where technician excellence meets real-world impact.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     )
