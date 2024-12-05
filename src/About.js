@@ -142,6 +142,96 @@ function About(){
                         </p>
                     </div>
                 </div>
+
+                <div className="ourWorkProcess">
+                    <div className="top">
+                        <h1>Our Work Process</h1>
+                        <p>
+                            We follow a streamlined process to ensure your project's success. From understanding your needs to connecting you with 
+                            the right engineers, every step is designed to deliver efficient, high-quality results tailored to your goals.
+                        </p>
+                    </div>
+                    <div className="body">
+                        <div className="process">
+                            <p>01.</p>
+                            <br/>
+
+                            <h2>Research</h2>
+                            <br/>
+
+                            <p>
+                                We begin by understanding your unique project needs. Through in-depth discussions and analysis, we identify the specific 
+                                engineering expertise required to bring your vivion to life. This phase ensures that we fully grasp the scope, goals and 
+                                challenges of your project.
+                            </p>
+
+                        </div>
+                        <div className="process">
+                            <p>02.</p>
+                            <br/>
+
+                            <h2>Strategy</h2>
+                            <br/>
+
+                            <p>
+                                Using the insights from our research, we develop a customized plan to connect you with the right 
+                                engineers. Our strategy focuses on matching skills, experience and innovative solutions to your project's requirements, 
+                                ensuring seamless collaboration.
+                            </p>
+                        </div>
+                        <div className="process">
+                            <p>03.</p>
+                            <br/>
+
+                            <h2>Design</h2>
+                            <br/>
+
+                            <p>
+                                Collaborating with engineers and stakeholders, we craft a tailored project framework. This includes 
+                                creating detailed blueprints, workflows and timelines to ensure clarity and alignment across all parties involved.
+                            </p>
+                        </div>
+                        <div className="process">
+                            <p>04.</p>
+                            <br/>
+
+                            <h2>Development</h2>
+                            <br/>
+
+                            <p>
+                                Once the groundwork is set, the engineers get to work. Whether it's designing systems, developing prototypes 
+                                or constructing infrastructure, we ensure every step of the process aligns with the agreed-upon plan. 
+                                Regular updates keep you informed and involved.
+                            </p>
+                        </div>
+                        <div className="process">
+                            <p>05.</p>
+                            <br/>
+
+                            <h2>Quality Assurance</h2>
+                            <br/>
+
+                            <p>
+                                We prioritize excellence by rigorously reviewing the work at every stage. Our quality assurance process includes 
+                                thorough testing, inspections and feedback loops to ensure the final outcome meets or exceeds industry standards and client 
+                                expectations.
+                            </p>
+                        </div>
+                        <div className="process">
+                            <p>06.</p>
+                            <br/>
+
+                            <h2>Deployment and Delivery</h2>
+                            <br/>
+
+                            <p>
+                                After successful quality checks, we oversee the deployment or handover of the completed project. 
+                                We ensure a smooth transition and provide support to address any questions or concerns during implementation.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     )

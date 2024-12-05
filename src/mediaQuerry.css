@@ -169,4 +169,16 @@
     .aboutContainer .mainContent .ourMission div {
         width: 90vw;
     }
+    .aboutContainer .mainContent .ourWorkProcess .top {
+        padding: 0 2vw;
+    }
+    .aboutContainer .mainContent .ourWorkProcess .body {
+        display: grid;
+        grid-template-columns: repeat(1,90vw);
+        gap: 3vh;
+        padding: 5vw;
+    }
+    .aboutContainer .mainContent .ourWorkProcess .body .process {
+        width: 90vw;
+    }
 }
