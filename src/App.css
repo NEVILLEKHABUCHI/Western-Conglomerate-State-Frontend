@@ -482,3 +482,51 @@
   color: #BEBFC5;
   text-align: center;
 }
+.aboutContainer .mainContent .culture_vision {
+  width: inherit;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 2vw; */
+  padding: 2vh 3vw;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.aboutContainer .mainContent .culture_vision div {
+  width: 45vw;
+  height: max-content;
+}
+.aboutContainer .mainContent .culture_vision .culture #underline{
+  width: 3vw;
+  border: 2px solid #F04A00;
+  border-radius: 10px;
+}
+.aboutContainer .mainContent .culture_vision .culture #main_content {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  color: #BEBFC5;
+}
+.aboutContainer .mainContent .culture_vision .culture #main_content p {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #F04A00;
+}
+.aboutContainer .mainContent .culture_vision .vision #underline{
+  width: 3vw;
+  border: 2px solid #F04A00;
+  border-radius: 10px;
+}
+.aboutContainer .mainContent .culture_vision .vision #main_content {
+  text-align: center;
+  color: #BEBFC5;
+}
+.aboutContainer .mainContent .culture_vision .vision #main_content button {
+  padding: 1vw;
+  border: none;
+  background-color: #F04A00;
+  color: white;
+  border-radius: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

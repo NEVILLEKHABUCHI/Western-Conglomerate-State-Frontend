@@ -232,6 +232,62 @@ function About(){
                     </div>
 
                 </div>
+
+                <div className="culture_vision">
+                    <div className="culture">
+                        <h2>Our Culture</h2>
+                        <p id="underline"></p>
+                        <br/>
+
+                        <p id="main_content">
+                            <p></p>
+                            We listen to one another.
+                        </p><br/>
+
+                        <p id="main_content">
+                            <p></p>
+                            We work smart.
+                        </p><br/>
+
+                        <p id="main_content">
+                            <p></p>
+                            We manage with resilience.
+                        </p><br/>
+
+                        <p id="main_content">
+                            <p></p>
+                            We allow our inspiration and perseverance guide us.
+                        </p><br/>
+
+                        <p id="main_content">
+                            <p></p>
+                            We care about our clients, about our work and about each other.
+                        </p><br/>
+
+                        <p id="main_content">
+                            <p></p>
+                            Our clients are our friends.
+                        </p>
+                    </div>
+
+                    <div className="vision">
+                        <h2>Our Vision</h2>
+                        <p id="underline"></p>
+                        <br/>
+
+                        <p id="main_content">
+                            Our goal is to be the leading platform that seamlessly connects clients with world-class engineering talent across all disciplines.
+                            We envision a future where innovation and expertise converge to solve complex challenges, transform industries and drive sustainable growth.<br/><br/>
+                            Through a commitment to excellence, integrity and client-centric solutions, we aim to empower businesses and individuals to achieve their goals by providing 
+                            access to the best engineering minds. We aim to build lasting partnerships, foster innovation and become a trusted name in delivering engineering solutions that 
+                            make a real-world impact.<br/><br/>
+
+                            <button>CONTACT US</button>
+                        </p><br/>
+
+                       
+                    </div>
+                </div>
             </div>
         </div>
     )
