@@ -16,7 +16,7 @@ function PageHeader({showHeaderButtons, setShowHeaderButtons}){
                 <Link to='/'>Home</Link>
                 <Link to='/about'>About</Link>
                 <Link to='/services'>Services</Link>
-                <Link to='/projects'>Projects</Link>
+                {/* <Link to='/projects'>Projects</Link> */}
                 <Link to='/contacts'>Contacts</Link>
             </div>
             <div className='socialMediaLinks'>

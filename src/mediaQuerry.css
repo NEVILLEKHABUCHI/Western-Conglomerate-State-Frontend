@@ -202,4 +202,52 @@
     .aboutContainer .mainContent .culture_vision .vision #main_content button {
         padding: 2vw;
     }
+
+    /*  Media querying the services page */
+    .servicesContainer .mainContent {
+        height: 90vh;
+        padding-bottom: 10vh;
+    }
+    .servicesContainer .mainContent .landingDiv {
+        width: 100vw;
+        height: 50vh;
+    }
+    .servicesContainer .mainContent .services .mainServices .service:first-of-type, .service:nth-of-type(3) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .servicesContainer .mainContent .services .mainServices .service .left {
+        width: 80vw;
+    }
+    .servicesContainer .mainContent .services .mainServices .service .left #body {
+        padding-bottom: 5px;
+      }
+    .servicesContainer .mainContent .services .mainServices .service .right {
+        width: 80vw;
+    }
+    .servicesContainer .mainContent .services .mainServices .service .right #body {
+        padding-bottom: 5px;
+    }
+    .servicesContainer .mainContent .services .mainServices .service:nth-of-type(2), .service:nth-of-type(4){
+        flex-direction: column;
+    }
+    .contactsContainer .mainContent .contactsDiv .contacts {
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+    }
+    .contactsContainer .mainContent .contactsDiv .contacts .left, .contacts .right {
+        width: 80vw;
+    }
+    .contactsContainer .mainContent .contactsDiv .contacts .left .contact {
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 10vw;
+    }
+    .contactsContainer .mainContent .contactsDiv .contacts .right form input {
+        width: 70vw;
+    }
+    .contactsContainer .mainContent .contactsDiv .contacts .right form textarea {
+        width: 70vw;
+    }
 }

@@ -530,3 +530,225 @@
   border-radius: 10px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+/* Styling the Services Page */
+.servicesContainer .mainContent {
+  width: 100vw;
+  height: 85vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #111111;
+  color: white;
+  padding-bottom: 5vh;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.servicesContainer .mainContent .landingDiv {
+  width: 100vw;
+  height: 60vh;
+  background-image: url('/public/services-image.png');
+  background-size: cover;
+  background-position: center;
+  /* filter: blur(10px); */
+  z-index: -1;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.servicesContainer .mainContent .landingDiv p {
+  color: #BEBFC5;
+  font-size: 1rem;
+}
+.servicesContainer .mainContent .landingDiv p span {
+  color: #F04A00;
+  text-decoration: underline;
+}
+.servicesContainer .mainContent .services {
+  width: inherit;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  padding-top: 10vh;
+}
+.servicesContainer .mainContent .services .mainServices {
+  width: 90vw;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+.servicesContainer .mainContent .services .mainServices .service {
+  width: inherit;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  background-color: #1B1B1B;
+}
+.servicesContainer .mainContent .services .mainServices .service .left {
+  width: 45vw;
+  height: inherit;
+}
+.servicesContainer .mainContent .services .mainServices .service .left .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+.servicesContainer .mainContent .services .mainServices .service .left .top #underline{
+  width: 10vw;
+  border: 2px solid #F04A00;
+  margin-top: 5px;
+}
+.servicesContainer .mainContent .services .mainServices .service .left #body {
+  text-align: center;
+  padding: 0 10px;
+}
+.servicesContainer .mainContent .services .mainServices .service .right {
+  width: 45vw;
+  height: inherit;
+}
+.servicesContainer .mainContent .services .mainServices .service .right img {
+  width: inherit;
+  max-height: 70vh;
+  object-fit: cover;
+}
+
+.servicesContainer .mainContent .services .mainServices .service .left img {
+  width: inherit;
+  max-height: 70vh;
+  object-fit: cover;
+}
+.servicesContainer .mainContent .services .mainServices .service .right .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+.servicesContainer .mainContent .services .mainServices .service .right .top #underline{
+  width: 10vw;
+  border: 2px solid #F04A00;
+  margin-top: 5px;
+}
+.servicesContainer .mainContent .services .mainServices .service .right #body {
+  text-align: center;
+  padding: 0 10px;
+}
+
+/* Styling the contacts page */
+.contactsContainer .mainContent {
+  width: 100vw;
+  height: 85vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #111111;
+  color: white;
+  padding-bottom: 5vh;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contactsContainer .mainContent .landingDiv {
+  width: 100vw;
+  height: 60vh;
+  background-image: url('/public/Contacts.png');
+  background-size: cover;
+  background-position: center;
+  /* filter: blur(10px); */
+  z-index: -1;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contactsContainer .mainContent .landingDiv p {
+  color: #BEBFC5;
+  font-size: 1rem;
+}
+.contactsContainer .mainContent .landingDiv p span {
+  color: #F04A00;
+  text-decoration: underline;
+}
+.contactsContainer .mainContent .contactsDiv {
+  width: inherit;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  padding-top: 4vh;
+}
+.contactsContainer .mainContent .contactsDiv .contacts {
+  width: 90vw;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.contactsContainer .mainContent .contactsDiv .contacts .left, .contacts .right {
+  width: 40vw;
+  height: max-content;
+  background-color: #1B1B1B;
+}
+.contactsContainer .mainContent .contactsDiv .contacts .left {
+  background-color: #111111;
+}
+.contactsContainer .mainContent .contactsDiv .contacts .left p {
+  color: #BEBFC5;
+}
+.contactsContainer .mainContent .contactsDiv .contacts .left .contact {
+  width: inherit;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  margin-top: 3vh;
+}
+.contactsContainer .mainContent .contactsDiv .contacts .left .contact .icon {
+  width: 10vw;
+}
+.contactsContainer .mainContent .contactsDiv .contacts .left .contact .icon p {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #F04A00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactsContainer .mainContent .contactsDiv .contacts .left .contact .icon p i {
+  font-size: 1.8rem;
+  color: white;
+}
+.contactsContainer .mainContent .contactsDiv .contacts .right {
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  padding: 5vh 0;
+}
+.contactsContainer .mainContent .contactsDiv .contacts .right form input{
+  width: 25vw;
+  height: 8vh;
+  border: none;
+  border-radius: 20px;
+  background-color: #111111;
+  padding-left: 3vw;
+}
+.contactsContainer .mainContent .contactsDiv .contacts .right form textarea {
+  width: 25vw;
+  border: none;
+  border-radius: 5px;
+  background-color: #111111;
+  padding: 1vh 3vw;
+}
+.contactsContainer .mainContent .contactsDiv .contacts .right form div {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+}
+.contactsContainer .mainContent .contactsDiv .contacts .right form div button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #F04A00;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

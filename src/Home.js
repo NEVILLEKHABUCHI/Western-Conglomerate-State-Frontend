@@ -14,7 +14,7 @@ function Home(){
                         <br/>
                         <p>The Western Conglomerate State is an award winning, full-service engineering agency. Our team will create something special to meet your requirements.</p>
                         <br/>
-                        <button>Request a Quote</button>
+                        <button>Book Appointment</button>
                     </div>
                 </div>
 
@@ -129,8 +129,7 @@ function Home(){
                 </div>
 
                 <footer>
-                    <p>© 2024 Western Conglomerate State. All Rights Reserved.</p>
-                    <p>Website Powered by <a href="https://nevoline-company.vercel.app/" target="_blank">NEVOLINE</a></p>
+                    <p>© Website powered by <a href="https://nevoline-company.vercel.app/" target="_blank">NEVOLINE</a> || All Rights Reserved</p>
                 </footer>
             </div>
         </div>
