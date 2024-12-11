@@ -29,7 +29,7 @@ function Contacts(){
     //      - body: Converts the formData object into a JSON string for transmission.
     // Alert: Shows a success message after submission. 
     const handleSubmit = async (e) => {
-        e.preventDefault();
+        // e.preventDefault();
 
         // Send form data to the backend
         await fetch('http://localhost:5000/send-email', {
