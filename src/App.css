@@ -730,6 +730,7 @@
   border: none;
   border-radius: 20px;
   background-color: #111111;
+  color: #BEBFC5;
   padding-left: 3vw;
 }
 .contactsContainer .mainContent .contactsDiv .contacts .right form textarea {
@@ -737,6 +738,7 @@
   border: none;
   border-radius: 5px;
   background-color: #111111;
+  color: #BEBFC5;
   padding: 1vh 3vw;
 }
 .contactsContainer .mainContent .contactsDiv .contacts .right form div {
